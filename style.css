@@ -1,0 +1,114 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+
+/* Navbar */
+.navbar {
+    background-color: #1D1D25;
+    padding-top: 20px;
+}
+
+.navbar-brand {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.navbar-nav {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.navbar-nav a {
+    padding-left: 30px !important;
+}
+
+
+/* Jumbotron */
+.jumbotron {
+    background-color: #1D1D25;
+    height: 500px;
+}
+
+.homepage h1 {
+    color: white;
+    font-size: 60px;
+}
+
+.homepage a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.homepage span {
+    color: #FA5053;
+}
+
+.buttoncv {
+    background-color: #FA5053;
+    color: white;
+    width: 150px;
+    height: 40px;
+    margin-top: 15px;
+}
+
+
+/* About */
+.about {
+    background-color: #1D1D25;
+    padding-bottom: 100px;
+}
+
+.about h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.about p {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+/* Project */
+.project {
+    background-color: #1D1D25;
+    padding-bottom: 100px;
+}
+
+.project h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    padding-bottom: 40px;
+}
+
+.project a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    height: 40px;
+    width: 200px;
+}
+
+.btnproject {
+    background-color: #FA5053;
+    color: white;
+}
+
+
+/* Contact */
+.contact {
+    background-color: #1D1D25;
+    padding-bottom: 100px;
+}
+
+.contact h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    padding-bottom: 40px;
+}
+
+.contact img {
+    width: 70px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
