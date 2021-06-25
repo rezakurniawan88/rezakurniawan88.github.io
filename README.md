@@ -2,4 +2,4 @@
 Website portfolio simple static
 
 Build using
-HTML, CSS, Bootstrap, Bootstrap Icon, Icon8
+HTML, CSS, Bootstrap, Icon8

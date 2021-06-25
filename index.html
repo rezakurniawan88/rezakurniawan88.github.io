@@ -8,9 +8,6 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <!-- Bootstrap Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" />
-
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css">
 
@@ -21,16 +18,16 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
-          <a class="navbar-brand" href="#">Portfolio.</a>
+          <a class="navbar-brand" href="index.html">Portfolio.</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ms-auto">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">About</a>
-              <a class="nav-link" href="#">Projects</a>
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link active" href="#about1">About</a>
+              <a class="nav-link active" href="#project1">Projects</a>
+              <a class="nav-link active" href="#contact1">Contact</a>
             </div>
           </div>
         </div>
@@ -50,7 +47,7 @@
 
 
     <!-- About -->
-    <section class="about">
+    <section id="about1" class="about">
         <div class="container">
             <h1 class="text-center">About Me</h1>
             <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id nulla adipiscing<br>scelerisque non. Neque ornare risus, fusce quis mauris purus donec.</p>
@@ -60,32 +57,32 @@
 
 
     <!-- Projects -->
-    <section class="project">
+    <section id="project1" class="project">
         <div class="container">
             <h1 class="text-center">Selected Projects</h1>
             <div class="row justify-content-center">
                 <div class="col-md-5 mb-5">
-                    <div class="card" style="width: 100%;">
-                        <img src="img/projects/1.jpg" class="card-img-top" alt="Project 1">
+                    <div class="card" style="width: 90%;">
+                        <img src="img/projects/1.png" class="card-img-top" alt="Project 1">
                     </div>
                 </div>
                 <div class="col-md-5 mb-5">
-                    <div class="card" style="width: 100%;">
+                    <div class="card" style="width: 90%;">
                         <img src="img/projects/2.jpg" class="card-img-top" alt="Project 2">
                     </div>
                 </div>
                 <div class="col-md-5 mb-5">
-                    <div class="card" style="width: 100%;">
-                        <img src="img/projects/3.jpg" class="card-img-top" alt="Project 3">
+                    <div class="card" style="width: 90%;">
+                        <img src="img/projects/3.png" class="card-img-top" alt="Project 3">
                     </div>
                 </div>
                 <div class="col-md-5 mb-5">
-                    <div class="card" style="width: 100%;">
+                    <div class="card" style="width: 90%;">
                         <img src="img/projects/4.jpg" class="card-img-top" alt="Project 4">
                     </div>
                 </div>
                 <div class="col-md-12 text-center">
-                    <a class="btn rounded-pill btnproject" href="#">See all in instagram</a>
+                    <a class="btn rounded-pill btnproject" href="https://instagram.com/rezakurniawan23" target="_blank">See all in instagram</a>
                 </div>
             </div>
         </div>
@@ -94,18 +91,27 @@
 
 
     <!-- Contact -->
-    <section class="contact">
+    <section id="contact1" class="contact">
         <div class="container">
             <h1 class="text-center">Contact Me</h1>
             <div class="col-md-12 text-center">
             <!-- Logo Facebook by Icon8 -->
-            <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMTI4IiBoZWlnaHQ9IjEyOCIKdmlld0JveD0iMCAwIDIyNiAyMjYiCnN0eWxlPSIgZmlsbDojMDAwMDAwOyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJub256ZXJvIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgc3Ryb2tlLWxpbmVjYXA9ImJ1dHQiIHN0cm9rZS1saW5lam9pbj0ibWl0ZXIiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLWRhc2hhcnJheT0iIiBzdHJva2UtZGFzaG9mZnNldD0iMCIgZm9udC1mYW1pbHk9Im5vbmUiIGZvbnQtd2VpZ2h0PSJub25lIiBmb250LXNpemU9Im5vbmUiIHRleHQtYW5jaG9yPSJub25lIiBzdHlsZT0ibWl4LWJsZW5kLW1vZGU6IG5vcm1hbCI+PHBhdGggZD0iTTAsMjI2di0yMjZoMjI2djIyNnoiIGZpbGw9Im5vbmUiPjwvcGF0aD48ZyBmaWxsPSIjZmZmZmZmIj48cGF0aCBkPSJNMTEzLDIxLjE4NzVjLTUwLjcwMTY5LDAgLTkxLjgxMjUsNDEuMTEwODEgLTkxLjgxMjUsOTEuODEyNWMwLDQ2LjAyOTg0IDMzLjkxMDU5LDg0LjA0MDIyIDc4LjA4NjUzLDkwLjY3ODk3di02Ni4zNDg2NmgtMjIuNzE2NTN2LTI0LjEzMjU2aDIyLjcxNjUzdi0xNi4wNjAxMmMwLC0yNi41ODY3OCAxMi45NTI2MiwtMzguMjU0MDMgMzUuMDUxMTksLTM4LjI1NDAzYzEwLjU3OTYzLDAgMTYuMTgzNzIsMC43ODc0NyAxOC44Mjg2MywxLjE0MDU5djIxLjA2MzkxaC0xNS4wNzEzOGMtOS4zNzksMCAtMTIuNjU2LDguODk4NzUgLTEyLjY1NiwxOC45MjA0NHYxMy4xODkyMmgyNy40OTA3OGwtMy43MjU0NywyNC4xMzI1NmgtMjMuNzY1MzF2NjYuNTM5MzRjNDQuODExNTYsLTYuMDczNzUgNzkuMzg2MDMsLTQ0LjM4NzgxIDc5LjM4NjAzLC05MC44Njk2NmMwLC01MC43MDE2OSAtNDEuMTA3MjgsLTkxLjgxMjUgLTkxLjgxMjUsLTkxLjgxMjV6Ij48L3BhdGg+PC9nPjwvZz48L3N2Zz4="/>
+            <a href="https://www.facebook.com/reza.kurniawan2324" target="_blank">
+                <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMTI4IiBoZWlnaHQ9IjEyOCIKdmlld0JveD0iMCAwIDIyNiAyMjYiCnN0eWxlPSIgZmlsbDojMDAwMDAwOyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJub256ZXJvIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgc3Ryb2tlLWxpbmVjYXA9ImJ1dHQiIHN0cm9rZS1saW5lam9pbj0ibWl0ZXIiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLWRhc2hhcnJheT0iIiBzdHJva2UtZGFzaG9mZnNldD0iMCIgZm9udC1mYW1pbHk9Im5vbmUiIGZvbnQtd2VpZ2h0PSJub25lIiBmb250LXNpemU9Im5vbmUiIHRleHQtYW5jaG9yPSJub25lIiBzdHlsZT0ibWl4LWJsZW5kLW1vZGU6IG5vcm1hbCI+PHBhdGggZD0iTTAsMjI2di0yMjZoMjI2djIyNnoiIGZpbGw9Im5vbmUiPjwvcGF0aD48ZyBmaWxsPSIjZmZmZmZmIj48cGF0aCBkPSJNMTEzLDIxLjE4NzVjLTUwLjcwMTY5LDAgLTkxLjgxMjUsNDEuMTEwODEgLTkxLjgxMjUsOTEuODEyNWMwLDQ2LjAyOTg0IDMzLjkxMDU5LDg0LjA0MDIyIDc4LjA4NjUzLDkwLjY3ODk3di02Ni4zNDg2NmgtMjIuNzE2NTN2LTI0LjEzMjU2aDIyLjcxNjUzdi0xNi4wNjAxMmMwLC0yNi41ODY3OCAxMi45NTI2MiwtMzguMjU0MDMgMzUuMDUxMTksLTM4LjI1NDAzYzEwLjU3OTYzLDAgMTYuMTgzNzIsMC43ODc0NyAxOC44Mjg2MywxLjE0MDU5djIxLjA2MzkxaC0xNS4wNzEzOGMtOS4zNzksMCAtMTIuNjU2LDguODk4NzUgLTEyLjY1NiwxOC45MjA0NHYxMy4xODkyMmgyNy40OTA3OGwtMy43MjU0NywyNC4xMzI1NmgtMjMuNzY1MzF2NjYuNTM5MzRjNDQuODExNTYsLTYuMDczNzUgNzkuMzg2MDMsLTQ0LjM4NzgxIDc5LjM4NjAzLC05MC44Njk2NmMwLC01MC43MDE2OSAtNDEuMTA3MjgsLTkxLjgxMjUgLTkxLjgxMjUsLTkxLjgxMjV6Ij48L3BhdGg+PC9nPjwvZz48L3N2Zz4="/>
+            </a>
+
 
             <!-- Logo Instagram by Icon8 -->
-            <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIKdmlld0JveD0iMCAwIDE3MiAxNzIiCnN0eWxlPSIgZmlsbDojMDAwMDAwOyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJub256ZXJvIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgc3Ryb2tlLWxpbmVjYXA9ImJ1dHQiIHN0cm9rZS1saW5lam9pbj0ibWl0ZXIiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLWRhc2hhcnJheT0iIiBzdHJva2UtZGFzaG9mZnNldD0iMCIgZm9udC1mYW1pbHk9Im5vbmUiIGZvbnQtd2VpZ2h0PSJub25lIiBmb250LXNpemU9Im5vbmUiIHRleHQtYW5jaG9yPSJub25lIiBzdHlsZT0ibWl4LWJsZW5kLW1vZGU6IG5vcm1hbCI+PHBhdGggZD0iTTAsMTcydi0xNzJoMTcydjE3MnoiIGZpbGw9Im5vbmUiPjwvcGF0aD48ZyBmaWxsPSIjZmZmZmZmIj48cGF0aCBkPSJNNTUuMDQsMTAuMzJjLTI0LjY2NDgsMCAtNDQuNzIsMjAuMDU1MiAtNDQuNzIsNDQuNzJ2NjEuOTJjMCwyNC42NjQ4IDIwLjA1NTIsNDQuNzIgNDQuNzIsNDQuNzJoNjEuOTJjMjQuNjY0OCwwIDQ0LjcyLC0yMC4wNTUyIDQ0LjcyLC00NC43MnYtNjEuOTJjMCwtMjQuNjY0OCAtMjAuMDU1MiwtNDQuNzIgLTQ0LjcyLC00NC43MnpNMTI3LjI4LDM3Ljg0YzMuNzg0LDAgNi44OCwzLjA5NiA2Ljg4LDYuODhjMCwzLjc4NCAtMy4wOTYsNi44OCAtNi44OCw2Ljg4Yy0zLjc4NCwwIC02Ljg4LC0zLjA5NiAtNi44OCwtNi44OGMwLC0zLjc4NCAzLjA5NiwtNi44OCA2Ljg4LC02Ljg4ek04Niw0OC4xNmMyMC44ODA4LDAgMzcuODQsMTYuOTU5MiAzNy44NCwzNy44NGMwLDIwLjg4MDggLTE2Ljk1OTIsMzcuODQgLTM3Ljg0LDM3Ljg0Yy0yMC44ODA4LDAgLTM3Ljg0LC0xNi45NTkyIC0zNy44NCwtMzcuODRjMCwtMjAuODgwOCAxNi45NTkyLC0zNy44NCAzNy44NCwtMzcuODR6TTg2LDU1LjA0Yy0xNy4wNjI0LDAgLTMwLjk2LDEzLjg5NzYgLTMwLjk2LDMwLjk2YzAsMTcuMDYyNCAxMy44OTc2LDMwLjk2IDMwLjk2LDMwLjk2YzE3LjA2MjQsMCAzMC45NiwtMTMuODk3NiAzMC45NiwtMzAuOTZjMCwtMTcuMDYyNCAtMTMuODk3NiwtMzAuOTYgLTMwLjk2LC0zMC45NnoiPjwvcGF0aD48L2c+PC9nPjwvc3ZnPg=="/>
+            <a href="https://instagram.com/rezakurniawan23" target="_blank">
+                <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIKdmlld0JveD0iMCAwIDE3MiAxNzIiCnN0eWxlPSIgZmlsbDojMDAwMDAwOyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJub256ZXJvIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgc3Ryb2tlLWxpbmVjYXA9ImJ1dHQiIHN0cm9rZS1saW5lam9pbj0ibWl0ZXIiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLWRhc2hhcnJheT0iIiBzdHJva2UtZGFzaG9mZnNldD0iMCIgZm9udC1mYW1pbHk9Im5vbmUiIGZvbnQtd2VpZ2h0PSJub25lIiBmb250LXNpemU9Im5vbmUiIHRleHQtYW5jaG9yPSJub25lIiBzdHlsZT0ibWl4LWJsZW5kLW1vZGU6IG5vcm1hbCI+PHBhdGggZD0iTTAsMTcydi0xNzJoMTcydjE3MnoiIGZpbGw9Im5vbmUiPjwvcGF0aD48ZyBmaWxsPSIjZmZmZmZmIj48cGF0aCBkPSJNNTUuMDQsMTAuMzJjLTI0LjY2NDgsMCAtNDQuNzIsMjAuMDU1MiAtNDQuNzIsNDQuNzJ2NjEuOTJjMCwyNC42NjQ4IDIwLjA1NTIsNDQuNzIgNDQuNzIsNDQuNzJoNjEuOTJjMjQuNjY0OCwwIDQ0LjcyLC0yMC4wNTUyIDQ0LjcyLC00NC43MnYtNjEuOTJjMCwtMjQuNjY0OCAtMjAuMDU1MiwtNDQuNzIgLTQ0LjcyLC00NC43MnpNMTI3LjI4LDM3Ljg0YzMuNzg0LDAgNi44OCwzLjA5NiA2Ljg4LDYuODhjMCwzLjc4NCAtMy4wOTYsNi44OCAtNi44OCw2Ljg4Yy0zLjc4NCwwIC02Ljg4LC0zLjA5NiAtNi44OCwtNi44OGMwLC0zLjc4NCAzLjA5NiwtNi44OCA2Ljg4LC02Ljg4ek04Niw0OC4xNmMyMC44ODA4LDAgMzcuODQsMTYuOTU5MiAzNy44NCwzNy44NGMwLDIwLjg4MDggLTE2Ljk1OTIsMzcuODQgLTM3Ljg0LDM3Ljg0Yy0yMC44ODA4LDAgLTM3Ljg0LC0xNi45NTkyIC0zNy44NCwtMzcuODRjMCwtMjAuODgwOCAxNi45NTkyLC0zNy44NCAzNy44NCwtMzcuODR6TTg2LDU1LjA0Yy0xNy4wNjI0LDAgLTMwLjk2LDEzLjg5NzYgLTMwLjk2LDMwLjk2YzAsMTcuMDYyNCAxMy44OTc2LDMwLjk2IDMwLjk2LDMwLjk2YzE3LjA2MjQsMCAzMC45NiwtMTMuODk3NiAzMC45NiwtMzAuOTZjMCwtMTcuMDYyNCAtMTMuODk3NiwtMzAuOTYgLTMwLjk2LC0zMC45NnoiPjwvcGF0aD48L2c+PC9nPjwvc3ZnPg=="/>
+            </a>
+
 
             <!-- Logo Dribbble by Icon8-->
-            <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIKdmlld0JveD0iMCAwIDE3MiAxNzIiCnN0eWxlPSIgZmlsbDojMDAwMDAwOyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJub256ZXJvIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgc3Ryb2tlLWxpbmVjYXA9ImJ1dHQiIHN0cm9rZS1saW5lam9pbj0ibWl0ZXIiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLWRhc2hhcnJheT0iIiBzdHJva2UtZGFzaG9mZnNldD0iMCIgZm9udC1mYW1pbHk9Im5vbmUiIGZvbnQtd2VpZ2h0PSJub25lIiBmb250LXNpemU9Im5vbmUiIHRleHQtYW5jaG9yPSJub25lIiBzdHlsZT0ibWl4LWJsZW5kLW1vZGU6IG5vcm1hbCI+PHBhdGggZD0iTTAsMTcydi0xNzJoMTcydjE3MnoiIGZpbGw9Im5vbmUiPjwvcGF0aD48ZyBmaWxsPSIjZmZmZmZmIj48cGF0aCBkPSJNMTIyLjcyOTE3LDkzLjE2NjY3Yy01LjAyMzgzLDAgLTkuOTQwMTcsMC40NDA3NSAtMTQuNzM4MjUsMS4yNDdjNi41NzE4MywxNi45NDIgMTEuNTUyNjcsMzQuNjU4IDE0Ljc4ODQyLDUyLjk3OTU4YzE3LjA4MTc1LC0xMC4yNzM0MiAyOS41Njk2NywtMjcuNDA1MzMgMzMuNTI1NjcsLTQ3LjYwODE3Yy0xMC4zNjMsLTQuMjUzNDIgLTIxLjY5NzA4LC02LjYxODQyIC0zMy41NzU4MywtNi42MTg0MnpNOTMuMjQ5MDgsODYuODc3OTJjLTEuOTE3MDgsLTQuMzUwMTcgLTMuOTUyNDIsLTguNjM5NDIgLTYuMDg4MDgsLTEyLjg2Nzc1Yy0xNC45MDMwOCw1LjQzNTkyIC0zMC45ODE1LDguNDA2NSAtNDcuNzQ0MzMsOC40MDY1Yy04LjQ2MzgzLDAgLTE2LjczNzc1LC0wLjc5OTA4IC0yNC43ODk1LC0yLjI0Njc1Yy0wLjE1NDA4LDEuOTI3ODMgLTAuMjkzODMsMy44NjI4MyAtMC4yOTM4Myw1LjgzMDA4YzAsMTkuMzY3OTIgNy43NTQzMywzNi45MzcgMjAuMjg1MjUsNDkuODQ3NzVjMTIuMTY5LC0yMy4yMTI4MyAzMy4yMjEwOCwtNDEuMDY1IDU4LjYzMDUsLTQ4Ljk2OTgzek05Ny4xMjYyNSw2OS44OTI5MmMyLjM2MTQyLDQuNzEyMDggNC42MTg5Miw5LjQ4NTA4IDYuNzIyMzMsMTQuMzQ0MDhjNi4xMTY3NSwtMS4xODI1IDEyLjQyMzQyLC0xLjgyMDMzIDE4Ljg4MDU4LC0xLjgyMDMzYzEyLjI0MDY3LDAgMjMuOTYxNzUsMi4yMzYgMzQuODAxMzMsNi4yOTk1YzAuMDMyMjUsLTAuOTEwMTcgMC4xMzYxNywtMS43OTg4MyAwLjEzNjE3LC0yLjcxNjE3YzAsLTE3Ljg0NSAtNi42MDA1LC0zNC4xNTI3NSAtMTcuNDI5MzMsLTQ2LjcwODc1Yy0xMi4yMjYzMywxMi43NTMwOCAtMjYuODMyLDIzLjE4Nzc1IC00My4xMTEwOCwzMC42MDE2N3pNNDIuOTQ2MjUsMTQzLjE1NDE3YzEyLjAwNDE3LDkuMDY1ODMgMjYuODg1NzUsMTQuNTEyNSA0My4wNTM3NSwxNC41MTI1YzkuNDYzNTgsMCAxOC40ODY0MiwtMS44ODg0MiAyNi43NjM5MiwtNS4yMzUyNWMtMy4xNzEyNSwtMTkuMjcxMTcgLTguMzc3ODMsLTM3Ljg1NDMzIC0xNS4zNTgxNywtNTUuNTU5NThjLTIzLjk0MzgzLDcuMTQ1MTcgLTQzLjY3NzI1LDI0LjE0NDUgLTU0LjQ1OTUsNDYuMjgyMzN6TTEzMi42MzcwOCwzMS42OTQ1OGMtMTIuNTQ4ODMsLTEwLjc4OTQyIC0yOC44Mjc5MiwtMTcuMzYxMjUgLTQ2LjYzNzA4LC0xNy4zNjEyNWMtNy44MTUyNSwwIC0xNS4zMjIzMywxLjMwMDc1IC0yMi4zNzA3NSwzLjYyMjc1YzEwLjcxNDE3LDEzLjIxMTc1IDIwLjI4ODgzLDI3LjM4MDI1IDI4LjUzNDA4LDQyLjM4NzI1YzE1LjMwNDQyLC02Ljg4NzE3IDI5LjAyNSwtMTYuNjY2MDggNDAuNDczNzUsLTI4LjY0ODc1ek0xNi4zMTEzMyw2OS41NTI1YzcuNTAzNSwxLjM2NTI1IDE1LjIxNDgzLDIuMTE0MTcgMjMuMTA1MzMsMi4xMTQxN2MxNC45NTMyNSwwIDI5LjMwODA4LC0yLjU4NzE3IDQyLjY3MzkyLC03LjI4NDkyYy04LjI5OSwtMTQuOTMxNzUgLTE3LjkyMDI1LC0yOS4wMjg1OCAtMjguNzU5ODMsLTQyLjA4OTgzYy0xOC4zOTY4Myw5LjQ3MDc1IC0zMi4xNDk2NywyNi42NDkyNSAtMzcuMDE5NDIsNDcuMjYwNTh6Ij48L3BhdGg+PC9nPjwvZz48L3N2Zz4="/>
+            <a href="https://dribbble.com/rezakurniawan23" target="_blank">
+                <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIKdmlld0JveD0iMCAwIDE3MiAxNzIiCnN0eWxlPSIgZmlsbDojMDAwMDAwOyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJub256ZXJvIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgc3Ryb2tlLWxpbmVjYXA9ImJ1dHQiIHN0cm9rZS1saW5lam9pbj0ibWl0ZXIiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLWRhc2hhcnJheT0iIiBzdHJva2UtZGFzaG9mZnNldD0iMCIgZm9udC1mYW1pbHk9Im5vbmUiIGZvbnQtd2VpZ2h0PSJub25lIiBmb250LXNpemU9Im5vbmUiIHRleHQtYW5jaG9yPSJub25lIiBzdHlsZT0ibWl4LWJsZW5kLW1vZGU6IG5vcm1hbCI+PHBhdGggZD0iTTAsMTcydi0xNzJoMTcydjE3MnoiIGZpbGw9Im5vbmUiPjwvcGF0aD48ZyBmaWxsPSIjZmZmZmZmIj48cGF0aCBkPSJNMTIyLjcyOTE3LDkzLjE2NjY3Yy01LjAyMzgzLDAgLTkuOTQwMTcsMC40NDA3NSAtMTQuNzM4MjUsMS4yNDdjNi41NzE4MywxNi45NDIgMTEuNTUyNjcsMzQuNjU4IDE0Ljc4ODQyLDUyLjk3OTU4YzE3LjA4MTc1LC0xMC4yNzM0MiAyOS41Njk2NywtMjcuNDA1MzMgMzMuNTI1NjcsLTQ3LjYwODE3Yy0xMC4zNjMsLTQuMjUzNDIgLTIxLjY5NzA4LC02LjYxODQyIC0zMy41NzU4MywtNi42MTg0MnpNOTMuMjQ5MDgsODYuODc3OTJjLTEuOTE3MDgsLTQuMzUwMTcgLTMuOTUyNDIsLTguNjM5NDIgLTYuMDg4MDgsLTEyLjg2Nzc1Yy0xNC45MDMwOCw1LjQzNTkyIC0zMC45ODE1LDguNDA2NSAtNDcuNzQ0MzMsOC40MDY1Yy04LjQ2MzgzLDAgLTE2LjczNzc1LC0wLjc5OTA4IC0yNC43ODk1LC0yLjI0Njc1Yy0wLjE1NDA4LDEuOTI3ODMgLTAuMjkzODMsMy44NjI4MyAtMC4yOTM4Myw1LjgzMDA4YzAsMTkuMzY3OTIgNy43NTQzMywzNi45MzcgMjAuMjg1MjUsNDkuODQ3NzVjMTIuMTY5LC0yMy4yMTI4MyAzMy4yMjEwOCwtNDEuMDY1IDU4LjYzMDUsLTQ4Ljk2OTgzek05Ny4xMjYyNSw2OS44OTI5MmMyLjM2MTQyLDQuNzEyMDggNC42MTg5Miw5LjQ4NTA4IDYuNzIyMzMsMTQuMzQ0MDhjNi4xMTY3NSwtMS4xODI1IDEyLjQyMzQyLC0xLjgyMDMzIDE4Ljg4MDU4LC0xLjgyMDMzYzEyLjI0MDY3LDAgMjMuOTYxNzUsMi4yMzYgMzQuODAxMzMsNi4yOTk1YzAuMDMyMjUsLTAuOTEwMTcgMC4xMzYxNywtMS43OTg4MyAwLjEzNjE3LC0yLjcxNjE3YzAsLTE3Ljg0NSAtNi42MDA1LC0zNC4xNTI3NSAtMTcuNDI5MzMsLTQ2LjcwODc1Yy0xMi4yMjYzMywxMi43NTMwOCAtMjYuODMyLDIzLjE4Nzc1IC00My4xMTEwOCwzMC42MDE2N3pNNDIuOTQ2MjUsMTQzLjE1NDE3YzEyLjAwNDE3LDkuMDY1ODMgMjYuODg1NzUsMTQuNTEyNSA0My4wNTM3NSwxNC41MTI1YzkuNDYzNTgsMCAxOC40ODY0MiwtMS44ODg0MiAyNi43NjM5MiwtNS4yMzUyNWMtMy4xNzEyNSwtMTkuMjcxMTcgLTguMzc3ODMsLTM3Ljg1NDMzIC0xNS4zNTgxNywtNTUuNTU5NThjLTIzLjk0MzgzLDcuMTQ1MTcgLTQzLjY3NzI1LDI0LjE0NDUgLTU0LjQ1OTUsNDYuMjgyMzN6TTEzMi42MzcwOCwzMS42OTQ1OGMtMTIuNTQ4ODMsLTEwLjc4OTQyIC0yOC44Mjc5MiwtMTcuMzYxMjUgLTQ2LjYzNzA4LC0xNy4zNjEyNWMtNy44MTUyNSwwIC0xNS4zMjIzMywxLjMwMDc1IC0yMi4zNzA3NSwzLjYyMjc1YzEwLjcxNDE3LDEzLjIxMTc1IDIwLjI4ODgzLDI3LjM4MDI1IDI4LjUzNDA4LDQyLjM4NzI1YzE1LjMwNDQyLC02Ljg4NzE3IDI5LjAyNSwtMTYuNjY2MDggNDAuNDczNzUsLTI4LjY0ODc1ek0xNi4zMTEzMyw2OS41NTI1YzcuNTAzNSwxLjM2NTI1IDE1LjIxNDgzLDIuMTE0MTcgMjMuMTA1MzMsMi4xMTQxN2MxNC45NTMyNSwwIDI5LjMwODA4LC0yLjU4NzE3IDQyLjY3MzkyLC03LjI4NDkyYy04LjI5OSwtMTQuOTMxNzUgLTE3LjkyMDI1LC0yOS4wMjg1OCAtMjguNzU5ODMsLTQyLjA4OTgzYy0xOC4zOTY4Myw5LjQ3MDc1IC0zMi4xNDk2NywyNi42NDkyNSAtMzcuMDE5NDIsNDcuMjYwNTh6Ij48L3BhdGg+PC9nPjwvZz48L3N2Zz4="/>
+            </a>
+
 
             <!-- Logo Email by Icon8-->
             <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABmJLR0QA/wD/AP+gvaeTAAAElklEQVR4nO3dS4gcVRjF8f+Xh6IBCSgqkSgafDHRRAxKFMWo4CCMm5ilujMbMSuNYNSg+EIEs4w7x90gKJlgRBIDuspiGDMTkCyjiQZ35jGKOnNcVBdpo5lbt+r29O2u7wezCXVvf12H7tPdKbrBOeecc84555xzzjnnnHNuuFndhZJWARuAa4GVySYabH8BvwJHzex8nQ2iA5F0D/Aa8CRweZ0bbYE/gC+Bt8zs+5iFlQORZMCrwG5gedR47TUPvG5m71RdEBPIu8ArdaZyvG1mu6ocWCkQSaPAgUYjuSfM7OvQQcFAOk9Vs8BIiqlabNbM7g4dtKzCRpvxMFK4S9L9oYOqBPJQgmFc4eHQAVUC+RT4rPksrbcfmAgdFAzEzH42s23AU8CPCQZrm1+A58xszMxOhA6u8ggBwMwmgTuB9yleX7vFLQAfA3eY2XjVRbU+OpG0EdgL3FdnfQscBbab2ZHYhZUfId06HwdsBrYDZ+vsMaTmKN4831snDGjw4WJJ0hpgD/B0070G3H7ghSo9sZhaj5BuXvpxpR3SOJBSC0u/Vmk3JmmrpNWRazZJmtLwmpK0KfKcrJa0Ne7s//9GE5JOS3o2ct0ySc9LOtO305beeUk7JUX994OkMUk/SQq+Mayy2UTXQN9Iuj1y/ZqL9hhUk5JuirzvN0s60LVH8kAkaU7SbkmXRe4zJunEUpy5xE4p/tlhhaQdks5etFdPAikdl7Qlcq8rJb0n6e8enbyU5iXtlXRV5H18QNLsJfbsaSCStCBpXNLVkXtulHQk4clLbVpS1KcQKkp7j4ogL6XngZSalP5vDU9eSk1LO2TJAikd1uCW/qSkGyNnv7i0Q5Y8EGnwSj9laYf0JZBS7qXfi9IO6WsgUr6l36vSDul7IKVcSr9JaZ9McPvZBFKqW/rjCW67TmnforjSDskuEOlC6UddF6z6pX9K0rbI26pb2iFZBlLqden3o7RDsg5E6l3p96u0Q7IPpJSq9Ptd2iEDE0jpK0nrIudbK+mLzt/ayLXrOre5VAYuEKlm6Ufep7K0zy3xfWt+5WIfXAG8AcxIejT15pIeBKaBj4BVqfdvKsdASrcBB1WU/jVNN1OntIFvgfWNp+uRnAOB4rqxZ4Bjiiz9bpLGgGPAi2R+n7Merst1wCeKfKevzjttYB9wQ8+mS2hQAik9AkyHSl/SSkk7gBlgdMmmS2DQAoELpT/VKeh/yb20Q1b0e4AGRoDvJB0CDnf+bQvwGAmuWe6XQQ4EihP/eOdvKAziU9ZQ80Ay44FkxgPJjAeSGQ8kMx5IZjyQzHggmfFAMuOBZMYDyYwHkhkPJDMeSGY8kMxUCeRcz6dojzOhA6oEcjLBIK4QPJdVAjmUYBBXOBg6oMoXKS8HfgBuTTFRix0HRsxs0a+uqvKtpPPAzlRTtdjLoTCg4qssM/sc+LDxSO31gZntq3JgzMvelyguUFuoNVI7LQC7iHiGqfODLhsoghmluIrQ/dfvFD/o8qaZzcQsbPqTR+uB64Gor9EYYn8Cpyl+CWGu38M455xzzjnnnHPOOeecc87l6B+RSrOVkQi1VwAAAABJRU5ErkJggg==">
@@ -118,7 +124,7 @@
 
     <!-- Footer -->
     <footer class="text-white text-center p-4" style="background-color: #101016;">
-        <p>Created with <i class="bi bi-heart-fill text-danger"></i> by Reza Kurniawan</p>
+        <p>Copyright ©2021 | Created by Reza Kurniawan</p>
     </footer>
     <!-- End Footer -->
 
