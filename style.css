@@ -115,7 +115,8 @@
 }
 
 .card {
-    margin-left: 25px;
+    border: none;
+    margin-left: 5%;
 }
 
 /* Contact */
@@ -147,4 +148,16 @@
 
 .contact a {
     text-decoration: none;
+}
+
+
+
+
+/* Responsive Mobile */
+@media only screen and (max-width: 600px) {
+    .about p {
+        font-size: 14px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
