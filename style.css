@@ -4,7 +4,7 @@
 
 /* Navbar */
 .navbar {
-    background-color: #1D1D25;
+    background-color: #21212b;
     padding-top: 20px;
 }
 
@@ -31,7 +31,7 @@
 
 /* Jumbotron */
 .jumbotron {
-    background-color: #1D1D25;
+    background-color: #21212b;
     height: 500px;
 }
 
@@ -66,7 +66,7 @@
 
 /* About */
 .about {
-    background-color: #1D1D25;
+    background-color: #21212b;
     padding-top: 30px;
     padding-bottom: 100px;
 }
@@ -85,7 +85,7 @@
 
 /* Project */
 .project {
-    background-color: #1D1D25;
+    background-color: #21212b;
     padding-top: 30px;
     padding-bottom: 80px;
 }
@@ -121,7 +121,7 @@
 
 /* Contact */
 .contact {
-    background-color: #1D1D25;
+    background-color: #21212b;
     padding-top: 30px;
     padding-bottom: 100px;
 }
@@ -146,10 +146,10 @@
     height: 60px;
 }
 
+
 .contact a {
     text-decoration: none;
 }
-
 
 
 
@@ -160,4 +160,20 @@
         padding-left: 10px;
         padding-right: 10px;
     }
+
+    .navbar {
+        background-color: #18181f;
+    }
+
+    .navbar-nav a {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .homepage {
+        position: relative !important;
+        margin-left: 15%;
+    }
+
+
 }
